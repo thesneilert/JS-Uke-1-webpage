@@ -1,47 +1,47 @@
 /* id */
 #background {
-    background-color: #1c1c1c;
+  background-color: #1c1c1c;
 }
 #image1 {
-    width: 11.1%;
-    position: absolute;
-    left: 320px;
-    top: 25px;
+  width: 11.1%;
+  position: absolute;
+  left: 320px;
+  top: 25px;
 }
 #list {
-    color:#cccccc; 
+  color: #cccccc;
 }
 #title {
-    margin-left: 20px;
-    margin-top: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#list-title{
-    margin-left: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
+#list-title {
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
 #list {
-    margin-left: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
+  margin-left: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
 #button-changecolor {
-    background: linear-gradient(to bottom right, #2ba335, #174386);
-    border: 0;
-    border-radius: 12px;
-    color: #e4e4e4;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    line-height: 2.5;
-    padding: 0 1rem;
-    text-align: center;
-    margin-left: 50px;
+  background: linear-gradient(to bottom right, #2ba335, #174386);
+  border: 0;
+  border-radius: 12px;
+  color: #e4e4e4;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  line-height: 2.5;
+  padding: 0 1rem;
+  text-align: center;
+  margin-left: 50px;
 }
 
 /* classes */
 li.list1 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
