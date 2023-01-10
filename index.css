@@ -1,10 +1,12 @@
+/* id */
 #background {
     background-color: #1c1c1c;
 }
     #image1 {
     width: 11%;
     position: absolute;
-    left: 250px;
+    left: 320px;
+    top: 25px;
 
 }
 #list {
@@ -26,11 +28,28 @@
     font-size: small;
 }
 #button-changecolor {
-    width: 100px;
-    height: 75px;
-    margin-left: 80px;
-    margin-top: 20px;
+    background: linear-gradient(to bottom right, #2ba335, #174386);
+    border: 0;
+    border-radius: 12px;
+    color: #e4e4e4;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
 }
+
+/* classes */
 li.list1 {
     margin-left: 20px;
 }
