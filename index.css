@@ -1,3 +1,4 @@
+///id
 #background {
     background-color: #1c1c1c;
 }
@@ -30,4 +31,11 @@
     height: 75px;
     margin-left: 80px;
     margin-top: 20px;
+}
+
+
+
+//list
+li.list1 {
+    margin-left: 20px;
 }
