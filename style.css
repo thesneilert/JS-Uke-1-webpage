@@ -1,31 +1,53 @@
-/* id */
-#background {
+/*class*/
+
+.backgroundcolor {
   background-color: #1c1c1c;
 }
-#image1 {
-  width: 11.1%;
-  position: absolute;
-  left: 320px;
-  top: 25px;
-}
-#list {
+
+.textcolor {
   color: #cccccc;
 }
-#title {
+
+.skrift1 {
+  position: static;
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-break: break-all;
 }
-#list-title {
+
+.skrift2 {
+  position: static;
   margin-left: 20px;
+  margin-top: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  word-break: break-all;
 }
-#list {
-  margin-left: 40px;
+
+.button-changecolor {
+  background: linear-gradient(to bottom right, #2ba335, #174386);
+  border: 0;
+  border-radius: 12px;
+  color: #e4e4e4;
+  cursor: pointer;
+  display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-size: 12px;
+  line-height: 2.5;
+  padding: 0 1rem;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 40px;
 }
+.testern{
+  position:static;
+  margin-left: 20px;
+  margin-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*id*/
+
 #button-changecolor {
   background: linear-gradient(to bottom right, #2ba335, #174386);
   border: 0;
@@ -38,10 +60,4 @@
   line-height: 2.5;
   padding: 0 1rem;
   text-align: center;
-  margin-left: 50px;
-}
-
-/* classes */
-li.list1 {
-  margin-left: 20px;
 }
