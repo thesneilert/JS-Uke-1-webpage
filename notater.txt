@@ -16,3 +16,7 @@ toggle.addEventListener('click', function(){
         body.style.transition = '2s';
     }
 });
+
+        darkKnapp.style.color = '#ff652f';
+        hjerteKnapp.style.color = '#ffe400';
+        githubKnapp.style.color = '#14a76c';
