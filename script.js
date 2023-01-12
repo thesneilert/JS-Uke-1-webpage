@@ -61,27 +61,14 @@ heart.addEventListener("click", function () {
 
 //github dropdown
 var dropdown = document.getElementById("dropdown");
+var hoverGithub = document.getElementById("hoverGithub");
 
-hoverGithub.addEventListener("click", function () {
-  if (dropdown.style.display === "block") {
-    dropdown.style.display = "none";
-  } else {
+hoverGithub.addEventListener("mouseenter", function () {
     dropdown.style.display = "block";
-  }
 });
 
-window.onclick = function (event) {
-  if (
-    !event.target.matches(".githubKnapp") &&
-    !event.target.closest(".githubKnapp")
-  ) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.style.display === "block") {
-        openDropdown.style.display = "none";
-      }
+dropdown.addEventListener("mouseleave", function (e) {
+    if (!e.relatedTarget.classList.contains("githubKnapp")) {
+        dropdown.style.display = "none";
     }
-  }
-};
+});

@@ -79,6 +79,10 @@ body {
   z-index: 1;
   padding: 10px;
   border-radius: 4px;
+  top: 175%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  
 }
 
 .githubdropdowntekst {
@@ -87,7 +91,7 @@ body {
   font-family: "Open Sans";
   color: #cccccc;
   position: relative;
-  top: -120%;
+  top: -25%;
   left: 0%;
   transform: translate(-50%, -50%);
 }
