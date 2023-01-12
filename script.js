@@ -15,30 +15,34 @@ toggleDark.addEventListener('click', function () {
   if (isBrightnessHigh) {
     body.style.background = 'white';
     body.style.transition = '2s';
+    setTimeout(() => {
     toggleDark.style.color = 'black';
     toggleDark.style.transition = '2s';
+    }, 600);
     setTimeout(() => {
       clickHeart.style.color = 'black';
       clickHeart.style.transition = '2s';
-    }, 200);
+    }, 400);
     setTimeout(() => {
       hoverGithub.style.color = 'black';
       hoverGithub.style.transition = '2s';
-    }, 400);
+    }, 200);
 
   } else {
     body.style.background = '#1c1c1c';
     body.style.transition = '2s';
+    setTimeout(() => {
     toggleDark.style.color = '#ff652f';
     toggleDark.style.transition = '2s';
+  }, 200);
     setTimeout(() => {
       clickHeart.style.color = '#14a76c';
       clickHeart.style.transition = '2s';
-    }, 200);
+    }, 400);
     setTimeout(() => {
      hoverGithub.style.color = '#ffe400';
       hoverGithub.style.transition = '2s';
-    }, 400);
+    }, 600);
   }
 });
 
