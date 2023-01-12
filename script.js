@@ -9,8 +9,8 @@ const body = document.querySelector("body");
 
 //darkmode mode funksjon
 toggleDark.addEventListener("click", function () {
-  this.classList.toggle("bi-moon");
-  const isBrightnessHigh = this.classList.toggle("bi-brightness-high");
+  this.classList.toggle("bi-brightness-high");
+  const isBrightnessHigh = this.classList.toggle("bi-moon");
   if (isBrightnessHigh) {
     body.style.background = "white";
     body.style.transition = "2s";
