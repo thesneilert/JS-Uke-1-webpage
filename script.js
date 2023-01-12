@@ -12,18 +12,18 @@ toggleDark.addEventListener("click", function () {
   this.classList.toggle("bi-brightness-high");
   const isBrightnessHigh = this.classList.toggle("bi-moon");
   if (isBrightnessHigh) {
-    body.style.background = "#C7A68B";
+    body.style.background = "#6B7A8F";
     body.style.transition = "2s";
     setTimeout(() => {
-      toggleDark.style.color = "black";
+      toggleDark.style.color = "#272727";
       toggleDark.style.transition = "2s";
     }, 600);
     setTimeout(() => {
-      clickHeart.style.color = "black";
+      clickHeart.style.color = "#272727";
       clickHeart.style.transition = "2s";
     }, 400);
     setTimeout(() => {
-      hoverGithub.style.color = "black";
+      hoverGithub.style.color = "#272727";
       hoverGithub.style.transition = "2s";
     }, 200);
   } else {
