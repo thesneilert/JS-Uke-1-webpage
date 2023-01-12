@@ -27,19 +27,19 @@ body {
 .skrift1 {
   position: static;
   width: 20px;
-  overflow:hidden;
-  height:1em;
+  overflow: hidden;
+  height: 1em;
   word-spacing: 1px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .skrift2 {
   position: static;
-  width:200px;
-  overflow:hidden;
-  height:1em;
+  width: 200px;
+  overflow: hidden;
+  height: 1em;
   word-spacing: 1px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 /*dark mode knapp*/
 .darkKnapp {
@@ -75,7 +75,7 @@ body {
   background-color: #272727;
   width: 160px;
   height: 15px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   padding: 10px;
   border-radius: 4px;
@@ -84,7 +84,7 @@ body {
 .githubdropdowntekst {
   font-size: 15px;
   cursor: pointer;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   color: #cccccc;
   position: relative;
   top: -120%;
