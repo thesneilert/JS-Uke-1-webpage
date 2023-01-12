@@ -1,6 +1,7 @@
 body {
   margin: 1%;
   padding: 1%;
+  background-color: #C7A68B;
 }
 
 .backgroundcolor {
@@ -13,11 +14,6 @@ body {
   transform: translate(-50%, -50%);
   background-color: #272727;
   border-radius: 4px;
-}
-
-.day-mode {
-  background-color: white;
-  color: black;
 }
 
 .textcolor {

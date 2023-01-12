@@ -12,7 +12,7 @@ toggleDark.addEventListener("click", function () {
   this.classList.toggle("bi-brightness-high");
   const isBrightnessHigh = this.classList.toggle("bi-moon");
   if (isBrightnessHigh) {
-    body.style.background = "white";
+    body.style.background = "#C7A68B";
     body.style.transition = "2s";
     setTimeout(() => {
       toggleDark.style.color = "black";
