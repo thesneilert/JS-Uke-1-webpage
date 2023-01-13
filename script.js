@@ -4,6 +4,7 @@ const toggle = document.getElementById("toggleDark");
 const heart = document.getElementById("clickHeart");
 //github dropdown
 const toggleGithub = document.getElementById("hoverGithub");
+const MouseGithubBox = document.getElementById("MouseGithubBox")
 //body
 const body = document.querySelector("body");
 
@@ -60,15 +61,16 @@ heart.addEventListener("click", function () {
 });
 
 //github dropdown
-var dropdown = document.getElementById("dropdown");
-var hoverGithub = document.getElementById("hoverGithub");
+const dropdown = document.getElementById("dropdown");
+const hoverGithub = document.getElementById("hoverGithub");
 
 hoverGithub.addEventListener("mouseenter", function () {
     dropdown.style.display = "block";
 });
 
 dropdown.addEventListener("mouseleave", function (e) {
-    if (!e.relatedTarget.classList.contains("githubKnapp")) {
+    if (!e.relatedTarget.classList.contains("githubKnapp") ||
+        !e.relatedTarget.classList.contains("hoverGithub")) {
         dropdown.style.display = "none";
     }
 });
