@@ -109,7 +109,7 @@ body {
 }
 
 .transparentMouseBox {
-  background-color: rgba(141, 28, 28, 0.548);
+  background-color: rgba(141, 28, 28, 0);
   position: absolute;
   width: 40px;
   height: 80px;
