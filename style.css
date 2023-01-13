@@ -75,7 +75,6 @@ body {
   border-radius: 50px;
   width: 0px;
   height: 0px;
-  background-color: rgb(0, 255, 106);
 }
 
 .dropdown-content {
@@ -110,11 +109,11 @@ body {
 }
 
 .transparentMouseBox {
-  background-color: rgba(141, 28, 28, 0);
+  background-color: rgba(141, 28, 28, 0.548);
   position: absolute;
   width: 40px;
   height: 80px;
-  border-radius: 20px;
+  border-radius: 0px;
   top: -25%;
   left: 50%;
   transform: translate(-50%, -50%);
